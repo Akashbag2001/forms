@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="stylesheet" href="\styling.css">
+    <title>FORM_DEMO</title>
+</head>
+
+<body>
+    <h1>Information Form</h1>
+
+    <form action="\Form_Submition.html">
+        <p>
+            <label for="Name">Write your Name</label>
+            <input type="text" placeholder="Name" id="Name" name="Username">
+        </p>
+        <p>
+            <label for="Phone">Write your Phone number</label>
+            <input type="number" placeholder="Phone Number" id="Phone" name="phone number">
+        </p>
+        <p>
+            <label for="password">Write a strong Password</label>
+            <input type="password" placeholder="password" id="password" name="password">
+        </p>
+        <p>
+            <label for="color">Choose a color</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <p>
+            <label for="gmail">Write your gamil Id</label>
+            <input type="text" placeholder="gmail" id="gmail" name="gamil">
+        </p>
+        <p>
+            <label for="checkbox">check this</label>
+            <input type="checkbox" id="checkbox" name="Checkbox">
+        </p>
+        <p>
+            <input type="submit" value="click to submit">
+    </form>
+
+    <h3>Goggle search</h3>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Gooogle search</button>
+    </form>
+
+    <h2>Checkbox</h2>
+    <form action="\Form_Submition.html">
+        <label for="chekbox">if you like our page then hit that button</label>
+        <input type="checkbox" id="Agree" name="Agree">
+
+        <br>
+        <button>Submit</button>
+    </form>
+    <h3>Tell me your shirt size</h3>
+    <form action="\Form_Submition.html">
+        <input type="radio" name="Size" id="xs" value="small">
+        <label for="Small">For small</label>
+        <br>
+        <input type="radio" name="Size" id="m" value="meduim">
+        <label for="m">For meduim</label>
+        <br>
+        <input type="radio" name="Size" id="l" value="large">
+        <label for="l">For large</label>
+        <br>
+        <button>Submit</button>
+        <aside>
+            <label for="pop_singer">Fav pop singer</label>
+            <select name="pop_singer" id="pop_singer">
+                <option value="">--Please choose an option--</option>
+                <option value="Justin Bieber">Justin Bieber</option>
+                <option value="Brino Mars">Brino Mars</option>
+                <option value="Taylor Swift ">Taylor Swift</option>
+                <option value="Lady Gaga">Lady Gaga</option>
+            </select>
+            <button>Submit</button>
+        </aside>
+        <label for="Personal Info">Tell something about yourself</label>
+        <br>
+        <textarea name="Personal Info" id="Personal Info" cols="30" rows="10" name="Personal info"
+            placeholder="Tell something about yurself"></textarea>
+        <br>
+        <button>submit</button>
+        </p>
+        </p>
+        <p>
+        <h2>Validation_demo</h2>
+        <form action="\About.html">
+            <label for="Username">Enter your Username</label>
+            <input type="text" name="Username" id="Username" minlength="10" maxlength="50" required>
+            <br>
+            <label for="password">Enter your password</label>
+            <input type="password" name="password" id="password" minlength="5" maxlength="10" required>
+            <br>
+            <button>Submit</button>
+        </form>
+        </p>
+
+
+    </form>
+</body>
+
+</html>

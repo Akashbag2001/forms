@@ -1,0 +1,67 @@
+h1{
+    color: #0b090a;
+    background-color: rgb(229, 149, 149, 0.67);
+    text-align: center;
+    border: 2px solid black;
+    
+}
+h2{
+    color: #0b090a;
+    background-color: rgb(58, 158,245, 0.45);
+    text-align: center;
+    border: 2px solid black;
+}
+h3{
+    color: #0b090a;
+    background-color: rgb(127, 246, 148, 0.55);
+    text-align: center;
+    border: 2px solid black;
+}
+button{
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 0em 2em;
+    font-size: 1em;
+    background-color: #151b29;
+    transition: border-color 0.25s color 0.25s box-shadow 0.25s transform 0.25s;
+
+    
+}
+button:hover{
+   border-color: #f1ff5c;
+   color: white;
+   box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c ;
+   transform: translateY(-0.25em);
+   cursor: pointer;
+   
+}
+
+button:active{
+    background-color:rgba(253, 255, 182, 0.589);
+}
+
+
+body{
+     background-image: linear-gradient(to right top, #5c4452, #6d536a, #7c6485, #8577a2, #8a8bc0, #918dcc, #9a8fd8, #a490e3, #c278d2, #dd5bb3, #ee3988, #f11655); 
+    border: 2px solid  #0b090a;
+    font-family: 'Roboto', sans-serif;
+   
+}
+p{
+    margin-left: 10px;
+    border: 2px solid back;
+    display: inline-block;
+    color: #000814;
+}
+form{
+    margin: 10px;
+    border: 2px solid #0b090a;
+    color: #000814;
+    
+}
+h1,h2,h3{
+    font-family: Tourney, cursive;
+}
+
+
